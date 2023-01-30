@@ -4,7 +4,7 @@ public class Main {
         public static int sum(int[] numbers) {
             /*
             Sum all the numbers of a given array ( cq. list ), except the highest and the lowest element
-            ( by value, not by index!).
+            ( by value, not by index! ).
             The highest or lowest element respectively is a single element at each edge,
             even if there are more than one with the same value.
             Mind the input validation.
@@ -15,16 +15,16 @@ public class Main {
             If an empty value ( null, None, Nothing etc. ) is given instead of an array,
             or the given array is an empty list or a list with only 1 element, return 0.
              */
-            if (numbers == null || numbers.length <= 2) {
+            // If the array is null or has only one element, return 0
+            if (numbers == null || numbers.length <= 1) {
                 return 0;
+                // If the array two or more elements, return the sum of the two elements
             } else {
-                // 1. find max and min
-                // variables to store max, min and sum
-                int sum, max, min;
-                // 2. sum all numbers
-                // initialize sum, max and min with first element
-                sum = max = min = numbers[0];
-                // loop through the array
+                // Initialize the sum, max and min variables
+                int sum = 0;
+                int max = numbers[0];
+                int min = numbers[0];
+                // Loop through the array and find the max, min and sum
                 for (int number : numbers) {
                     if (number > max) {
                         max = number;
@@ -34,7 +34,7 @@ public class Main {
                     }
                     sum += number;
                 }
-                // 3. return sum - max - min
+                // Return the sum of the array minus the max and min
                 return sum - max - min;
             }
 
