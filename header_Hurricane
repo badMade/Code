@@ -1,0 +1,29 @@
+<p>
+	<span 
+			class="abt-shipping-display-msg" 
+			style="color: rgb(255,255,255); 
+						font-size: 14.0px; 
+						font-weight:500; 
+						letter-spacing: 0.58px; 
+						line-height: 20.0px;
+						text-align: center;">
+			Due to the impact of Hurricane Milton, our AbbottStore call center will be closed on 10/10/24 to ensure the safety of our employees.
+	</span>
+</p>
+
+<p>
+	<span 
+			class="abt-shipping-display-msg" 
+			style="color: rgb(255,255,255); 
+						font-size: 14.0px; 
+						font-weight:500; 
+						letter-spacing: 0.58px; 
+						line-height: 20.0px;
+						text-align: center;">
+			Due to the impact of Hurricane Milton, our AbbottStore call center will be closed on 10/10/24 to ensure the safety of our employees.
+        <a 
+			style="color: rgb(255,255,255);" 
+			href=https://www.fedex.com/en-us/service-alerts.html?cmp=EMC-1002168-1-1-200-1111110-GLBL-US-EN-SRDISRUPT092624   >Learn More.
+		</a>
+	</span>
+</p>
